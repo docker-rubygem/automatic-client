@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.2.0
+ENV VERSION=0.0.3
 
 RUN gem install automatic-client --version ${VERSION} --no-format-exec
 
